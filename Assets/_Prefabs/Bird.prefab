@@ -183,3 +183,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1cebefcb6b82c242a54d6ba65da1acb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rigidbody2D: {fileID: 1188810281581841200}
+  upForce: 150
+  isDead: 0
+  OnJump:
+    m_PersistentCalls:
+      m_Calls: []
+  OnDead:
+    m_PersistentCalls:
+      m_Calls: []
