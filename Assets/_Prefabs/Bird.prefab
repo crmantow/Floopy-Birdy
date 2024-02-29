@@ -13,7 +13,8 @@ GameObject:
   - component: {fileID: 7973104543209780784}
   - component: {fileID: 1188810281581841200}
   - component: {fileID: 6106870780085709263}
-  - component: {fileID: 2030672456944726121}
+  - component: {fileID: 562355010210977527}
+  - component: {fileID: 467640468316256716}
   m_Layer: 0
   m_Name: Bird
   m_TagString: Untagged
@@ -171,7 +172,21 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.17
---- !u!114 &2030672456944726121
+--- !u!114 &562355010210977527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2683711886660095240}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 035f9699a343ec146a91305152ecc325, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _velocity: 3
+  _rotationSpeed: 12
+--- !u!114 &467640468316256716
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -183,9 +198,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1cebefcb6b82c242a54d6ba65da1acb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rigidbody2D: {fileID: 1188810281581841200}
-  upForce: 150
-  isDead: 0
   OnJump:
     m_PersistentCalls:
       m_Calls: []
